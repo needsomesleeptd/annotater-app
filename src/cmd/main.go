@@ -12,6 +12,7 @@ import (
 	logger_setup "github.com/needsomesleeptd/annotater-app/src/logger"
 	nn_adapter "github.com/needsomesleeptd/annotater-core/NN/NNAdapter"
 	nn_model_handler "github.com/needsomesleeptd/annotater-core/NN/NNAdapter/NNmodelhandler"
+	report_creator_serv "github.com/needsomesleeptd/annotater-core/reportCreatorService"
 	report_creator "github.com/needsomesleeptd/annotater-core/reportCreatorService/reportCreator"
 	"github.com/needsomesleeptd/annotater-core/service"
 	models_da "github.com/needsomesleeptd/annotater-repository/modelsDA"
@@ -94,11 +95,11 @@ func main() {
 	model := nn_adapter.NewDetectionModel(modelhandler)
 
 	reportCreator := report_creator.NewPDFReportCreator(config.ReportCreatorPath)
-	reportCreatorService := service.NewDocumentService(log, model, annotTypeRepo, reportCreator)
+	reportCreatorService := report_creator_serv.NewReportCreatorService(log, model, annotTypeRepo, reportCreator)
 
 	documentStorage := storage.NewDocumentRepositoryAdapter(config.DocumentPath, config.DocumentExt)
 
-	reportStorage := storage.NewDocumentRepositoryAdapter(config.ReportPath, config.ReportExt)
+	reportStorage := storage.NewReportRepositoryAdapter(config.ReportPath, config.ReportExt)
 
 	documentRepo := repo_adapter.NewDocumentRepositoryAdapter(db)
 	documentService := service.NewDocumentService(log, documentRepo, documentStorage, reportStorage, reportCreatorService)
