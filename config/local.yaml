@@ -27,8 +27,6 @@ http_server:
 logger:
   log_level: INFO
   output_filepath : ../../logs/log
-  use_file: false
-  log_format: "[%lvl%]: %time% - %msg%\n"
-  timestamp_format : "2006-01-02 15:04:05"
+  use_file: true
   output_format : text
 

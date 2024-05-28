@@ -121,6 +121,8 @@ github.com/needsomesleeptd/annotater-core v0.0.0-20240528112024-ae8b904bd2a2 h1:
 github.com/needsomesleeptd/annotater-core v0.0.0-20240528112024-ae8b904bd2a2/go.mod h1:4isxb8gRUmwVZuGeY7aMU8GPExTBTC0er6sSgMsvd6g=
 github.com/needsomesleeptd/annotater-repository v0.0.0-20240527222734-daab23ed594d h1:7LcSXwBv+dhCPZOwmGP1wyIwmJgLiXwqOuTNwFi3uXg=
 github.com/needsomesleeptd/annotater-repository v0.0.0-20240527222734-daab23ed594d/go.mod h1:zbyrAzQ/iiOE/tFVwTjIP3l0AeEuyHJFqJkp0EhF8dY=
+github.com/needsomesleeptd/annotater-repository v0.0.0-20240528112813-2fbfc5e8368b h1:iBoCeY8e2eKZa5Gt33+vU74LjFk5Rj+oxORQjsDNgc0=
+github.com/needsomesleeptd/annotater-repository v0.0.0-20240528112813-2fbfc5e8368b/go.mod h1:sm6vf0VfyDi24mOoWyzlox4iVdwJkNtrB5HzlBBnqcE=
 github.com/needsomesleeptd/annotater-utils v0.0.0-20240527211423-b6115e2427b1 h1:jqgGxWrweyviNTp3swV0jii1itPquPOdONSwkEwvY+4=
 github.com/needsomesleeptd/annotater-utils v0.0.0-20240527211423-b6115e2427b1/go.mod h1:X2V25GwOZShZYbVIiY9H5n8cRtZCGzu0E678gy1VflQ=
 github.com/needsomesleeptd/http-server v0.0.0-20240527212823-50b9ef3ac7ef h1:Bj+LIIL4HYVCK0azndjuOd/xDCRCzBzvmhc1Qx2PAUQ=

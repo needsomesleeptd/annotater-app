@@ -6,7 +6,7 @@ require (
 	github.com/go-chi/chi/v5 v5.0.12
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/needsomesleeptd/annotater-core v0.0.0-20240528112024-ae8b904bd2a2
-	github.com/needsomesleeptd/annotater-repository v0.0.0-20240527222734-daab23ed594d
+	github.com/needsomesleeptd/annotater-repository v0.0.0-20240528112813-2fbfc5e8368b
 	github.com/needsomesleeptd/annotater-utils v0.0.0-20240527211423-b6115e2427b1
 	github.com/needsomesleeptd/http-server v0.0.0-20240527212823-50b9ef3ac7ef
 	github.com/sirupsen/logrus v1.9.3
